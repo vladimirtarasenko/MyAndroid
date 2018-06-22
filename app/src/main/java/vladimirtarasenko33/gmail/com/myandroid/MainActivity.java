@@ -26,5 +26,17 @@ public class MainActivity extends AppCompatActivity {
     public void OnClickDz2(View view) {
         Intent intent = new Intent(MainActivity.this, ThirdActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.from_left,R.anim.alfa);
+    }
+
+    public void Class(View view) {
+        Intent intent = new Intent(MainActivity.this, ClassActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void onClickDz4(View view) {
+        Intent intent = new Intent(MainActivity.this, FourthActivity.class);
+        startActivity(intent);
     }
 }

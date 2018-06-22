@@ -28,5 +28,27 @@
         android:layout_centerHorizontal="true"
         android:text="Dz2" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="130dp"
+        android:onClick="Class"
+        android:text="DZ3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginTop="122dp"
+        android:onClick="onClickDz4"
+        android:text="DZ4" />
+
 
 </RelativeLayout>
